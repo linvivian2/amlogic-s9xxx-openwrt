@@ -4848,7 +4848,8 @@ CONFIG_PACKAGE_luci-app-openvpn-server=y
 # CONFIG_PACKAGE_luci-app-privoxy is not set
 # CONFIG_PACKAGE_luci-app-ps3netsrv is not set
 # CONFIG_PACKAGE_luci-app-pushbot is not set
-# CONFIG_PACKAGE_luci-app-qbittorrent is not set
+# CONFIG_PACKAGE_luci-app-
+torrent is not set
 CONFIG_PACKAGE_luci-app-qbittorrent_static=y
 # CONFIG_PACKAGE_luci-app-qbittorrent_dynamic is not set
 # CONFIG_PACKAGE_luci-app-qbittorrent-simple is not set
@@ -5298,7 +5299,9 @@ CONFIG_PACKAGE_luci-i18n-zerotier-zh-cn=y
 # CONFIG_PACKAGE_opentracker is not set
 # CONFIG_PACKAGE_opentracker6 is not set
 # CONFIG_PACKAGE_qBittorrent-static is not set
+ CONFIG_PACKAGE_qBittorrent-static=y
 # CONFIG_PACKAGE_qbittorrent is not set
+CONFIG_PACKAGE_qbittorrent=y
 # CONFIG_PACKAGE_rtorrent is not set
 # CONFIG_PACKAGE_rtorrent-rpc is not set
 # CONFIG_PACKAGE_transmission-cli-openssl is not set
