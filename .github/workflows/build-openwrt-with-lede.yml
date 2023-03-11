@@ -13,7 +13,7 @@ on:
       openwrt_board:
         description: "Select device board"
         required: false
-        default: "all"
+        default: "s905l3a"
         type: choice
         options:
           - all
@@ -208,7 +208,7 @@ jobs:
           body: |
             This is OpenWrt firmware for Amlogic and Rockchip
             * Firmware information
-            Default IP: 192.168.1.1
+            Default IP: 192.168.2.22
             Default username: root
             Default password: password
             Default WIFI name: OpenWrt
